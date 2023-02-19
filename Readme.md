@@ -11,5 +11,14 @@ go run main.go
 *Build*\
 go build .\main.go
 
+---
+**Build with icon*
+1. Instal\
+go install github.com/tc-hib/go-winres@latest
+2. Run\
+go-winres simply --icon YOUR_ICON_NAME.png\
+3. Build\
+go build 
+
 ----
 Check Demo. Builtn For Windows main.exe

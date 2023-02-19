@@ -90,7 +90,7 @@ func Alarm(seconds int){
 func main() {
 	// in seconds
 	// 2 hour -> 7200 seconds
-	Alarm(10)
+	Alarm(7200)
 	if err := PlaySound("alarm.mp3"); err != nil{
 		log.Fatal(err)
 	}
